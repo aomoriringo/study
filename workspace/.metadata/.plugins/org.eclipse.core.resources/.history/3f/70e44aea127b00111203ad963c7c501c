@@ -1,0 +1,5 @@
+package adapter2;
+
+public abstract class Print {
+
+}

@@ -1,0 +1,23 @@
+package template;
+
+public class StringDisplay extends AbstractDisplay {
+
+	@Override
+	public void open() {
+		// TODO 自動生成されたメソッド・スタブ
+
+	}
+
+	@Override
+	public void print() {
+		// TODO 自動生成されたメソッド・スタブ
+
+	}
+
+	@Override
+	public void close() {
+		// TODO 自動生成されたメソッド・スタブ
+
+	}
+
+}

@@ -1,0 +1,13 @@
+package idcard;
+
+import framework.Product;
+
+public class IDCard extends Product {
+
+	@Override
+	public void use() {
+		// TODO 自動生成されたメソッド・スタブ
+
+	}
+
+}

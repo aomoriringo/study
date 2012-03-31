@@ -1,0 +1,17 @@
+package adapter2;
+
+public class PrintBanner extends Print {
+
+	@Override
+	public void printWeak() {
+		// TODO 自動生成されたメソッド・スタブ
+
+	}
+
+	@Override
+	public void printStrong() {
+		// TODO 自動生成されたメソッド・スタブ
+
+	}
+
+}
