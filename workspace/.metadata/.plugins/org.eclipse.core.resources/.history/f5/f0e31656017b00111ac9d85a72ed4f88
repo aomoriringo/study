@@ -1,0 +1,17 @@
+package Iterator;
+
+public class BookShelfIterator implements Iterator {
+
+	@Override
+	public boolean hasNext() {
+		// TODO 自動生成されたメソッド・スタブ
+		return false;
+	}
+
+	@Override
+	public Object next() {
+		// TODO 自動生成されたメソッド・スタブ
+		return null;
+	}
+
+}

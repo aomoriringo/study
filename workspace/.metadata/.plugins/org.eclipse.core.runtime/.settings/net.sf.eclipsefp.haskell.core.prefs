@@ -1,0 +1,10 @@
+#Sat Mar 31 09:49:17 JST 2012
+cabalImplementations/1/installVersion=0.10.2
+SELECTED_HS_IMPLEMENTATION=GHC 7.0.4
+cabalImplementations/defaultImpl=cabal-0.10.2
+cabalImplementations/1/libraryVersion=1.10.2.0
+eclipse.preferences.version=1
+HS_IMPLEMENTATIONS=<?xml version\="1.0" encoding\="UTF-8"?>\n<hsImpls>\n  <hsImpl name\="GHC 7.0.4" binDir\="C\:\\Program Files (x86)\\Haskell Platform\\2011.4.0.0\\bin" version\="7.0.4" type\="GHC"/>\n</hsImpls>\n
+cabalImplementations/1/name=cabal-0.10.2
+cabalImplementations/1/executable=C\:/Program Files (x86)/Haskell Platform/2011.4.0.0/lib/extralibs/bin/cabal.exe
+cabalImplementations/numImpls=1
