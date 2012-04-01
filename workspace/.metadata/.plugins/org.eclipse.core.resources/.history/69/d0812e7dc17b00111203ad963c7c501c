@@ -1,0 +1,29 @@
+package builder;
+
+public class HTMLBuilder extends Builder {
+
+	@Override
+	public void makeTitle(String title) {
+		// TODO 自動生成されたメソッド・スタブ
+
+	}
+
+	@Override
+	public void makeString(String str) {
+		// TODO 自動生成されたメソッド・スタブ
+
+	}
+
+	@Override
+	public void makeItems(String[] items) {
+		// TODO 自動生成されたメソッド・スタブ
+
+	}
+
+	@Override
+	public void close() {
+		// TODO 自動生成されたメソッド・スタブ
+
+	}
+
+}

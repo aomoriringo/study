@@ -1,0 +1,5 @@
+package bridgeFunction;
+
+public class CountDisplay extends Display {
+
+}

@@ -1,4 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="adapter.Banner"/>
+<fullyQualifiedTypeName name="java.awt.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="idcard.IDCardFactory"/>
+<fullyQualifiedTypeName name="framework.Factory"/>
+<fullyQualifiedTypeName name="framework.Product"/>
+<fullyQualifiedTypeName name="singleton.Singleton"/>
+<fullyQualifiedTypeName name="factoryFramework.Product"/>
+<fullyQualifiedTypeName name="java.lang.CloneNotSupportedException"/>
+<fullyQualifiedTypeName name="UnderlinePen"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="java.io.PrintWriter"/>
+<fullyQualifiedTypeName name="java.io.FileWriter"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="builder.HTMLBuilder"/>
 </qualifiedTypeNameHistroy>

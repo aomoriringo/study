@@ -1,0 +1,5 @@
+package bridgeImplementation;
+
+public abstract class DisplayImpl {
+
+}

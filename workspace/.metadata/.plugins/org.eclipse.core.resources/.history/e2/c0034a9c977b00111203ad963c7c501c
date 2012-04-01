@@ -1,0 +1,5 @@
+import prototypeFramework.*;
+
+public class MessageBox implements Product{
+	
+}

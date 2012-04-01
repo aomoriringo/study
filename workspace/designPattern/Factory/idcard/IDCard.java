@@ -1,6 +1,6 @@
 package idcard;
 
-import framework.Product;
+import factoryFramework.Product;
 
 public class IDCard extends Product {
 

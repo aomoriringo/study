@@ -1,0 +1,23 @@
+package bridgeImplementation;
+
+public class StringDisplayImpl extends DisplayImpl {
+
+	@Override
+	public void rawOpen() {
+		// TODO 自動生成されたメソッド・スタブ
+
+	}
+
+	@Override
+	public void rawPrint() {
+		// TODO 自動生成されたメソッド・スタブ
+
+	}
+
+	@Override
+	public void rawClose() {
+		// TODO 自動生成されたメソッド・スタブ
+
+	}
+
+}

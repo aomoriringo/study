@@ -1,0 +1,13 @@
+package abstractFactoryTableFactory;
+
+import abstractFactoryFactory.Page;
+
+public class TablePage extends Page {
+
+	@Override
+	public String makeHTML() {
+		// TODO 自動生成されたメソッド・スタブ
+		return null;
+	}
+
+}

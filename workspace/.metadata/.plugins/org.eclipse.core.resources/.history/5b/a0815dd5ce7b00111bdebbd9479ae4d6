@@ -1,0 +1,13 @@
+package abstractFactoryListFactory;
+
+import abstractFactoryFactory.Tray;
+
+public class ListTray extends Tray {
+
+	@Override
+	public String makeHTML() {
+		// TODO 自動生成されたメソッド・スタブ
+		return null;
+	}
+
+}

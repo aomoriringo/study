@@ -1,0 +1,13 @@
+package abstractFactoryTableFactory;
+
+import abstractFactoryFactory.Link;
+
+public class TableLink extends Link {
+
+	@Override
+	public String makeHTML() {
+		// TODO 自動生成されたメソッド・スタブ
+		return null;
+	}
+
+}

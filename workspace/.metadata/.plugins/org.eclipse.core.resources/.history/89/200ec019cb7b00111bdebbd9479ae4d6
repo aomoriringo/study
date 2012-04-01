@@ -1,0 +1,11 @@
+package abstractFactory;
+
+public abstract class Link extends Item {
+
+	@Override
+	public String makeHTML() {
+		// TODO 自動生成されたメソッド・スタブ
+		return null;
+	}
+
+}

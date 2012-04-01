@@ -1,0 +1,11 @@
+package abstractFactoryFactory;
+
+public abstract class Tray extends Item {
+
+	@Override
+	public String makeHTML() {
+		// TODO 自動生成されたメソッド・スタブ
+		return null;
+	}
+
+}
