@@ -1,0 +1,17 @@
+package visitor;
+
+public class ListVisitor extends Visitor {
+
+	@Override
+	public void visit(File file) {
+		// TODO 自動生成されたメソッド・スタブ
+
+	}
+
+	@Override
+	public void visit(Directory directory) {
+		// TODO 自動生成されたメソッド・スタブ
+
+	}
+
+}

@@ -1,0 +1,27 @@
+package commandCommand;
+
+import java.util.Iterator;
+import java.util.Stack;
+
+public class MacroCommand implements Command {
+
+	// ñΩóﬂÇÃèWçá
+	private Stack<E> commands = new Stack();
+	
+	// é¿çs
+	@Override
+	public void execute() {
+		Iterator<E> it = commands.iterator();
+		while(it.hasNext()){
+			((Command)it.next()).execute();
+		}
+	}
+	
+	// í«â¡
+	public void append(Command cmd){
+		if(cmd != this){
+			commands.push(cmd);
+		}
+	}
+
+}

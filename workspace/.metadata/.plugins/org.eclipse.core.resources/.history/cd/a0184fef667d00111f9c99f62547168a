@@ -1,0 +1,5 @@
+package facadePagemaker;
+
+public class HtmlWriter {
+
+}

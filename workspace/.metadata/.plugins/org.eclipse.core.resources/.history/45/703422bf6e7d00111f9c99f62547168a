@@ -1,0 +1,19 @@
+package mediator;
+
+import java.awt.Button;
+
+public class ColleagueButton extends Button implements Colleague {
+
+	@Override
+	public void setMediator(Mediator mediator) {
+		// TODO 自動生成されたメソッド・スタブ
+
+	}
+
+	@Override
+	public void setColleagueEnabled(boolean enabled) {
+		// TODO 自動生成されたメソッド・スタブ
+
+	}
+
+}

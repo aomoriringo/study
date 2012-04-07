@@ -1,0 +1,17 @@
+package proxy;
+
+public class Main {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Printable p = new PrinterProxy("Alice");
+		
+		System.out.println("ñºëOÇÕåªç›" + p.getPrinterName() + "Ç≈Ç∑");
+		p.setPrinterName("Bob");
+		System.out.println("ñºëOÇÕåªç›" + p.getPrinterName() + "Ç≈Ç∑");
+		p.print("Hello, world");
+	}
+
+}

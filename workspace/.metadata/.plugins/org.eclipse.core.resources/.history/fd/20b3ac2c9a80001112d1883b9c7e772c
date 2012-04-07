@@ -1,0 +1,23 @@
+package commandDrawer;
+
+import commandCommand.Command;
+
+public class DrawCommand implements Command {
+
+	// •`‰æ‘ÎÛ
+	protected Drawable drawable;
+	
+	// •`‰æˆÊ’u
+	private Point position;
+	
+	public DrawCommand(Drawable drawable, Point position){
+		this.drawable = drawable;
+		this.position = position;
+	}
+	
+	@Override
+	public void execute() {
+		drawable.draw(position.x, position.y);
+	}
+
+}

@@ -1,0 +1,23 @@
+package proxy;
+
+public class PrinterProxy implements Printable {
+
+	@Override
+	public void setPrinterName(String name) {
+		// TODO 自動生成されたメソッド・スタブ
+
+	}
+
+	@Override
+	public String getPrinterName() {
+		// TODO 自動生成されたメソッド・スタブ
+		return null;
+	}
+
+	@Override
+	public void print(String string) {
+		// TODO 自動生成されたメソッド・スタブ
+
+	}
+
+}

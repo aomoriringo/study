@@ -1,0 +1,23 @@
+package decorator;
+
+public abstract class Border extends Display {
+
+	@Override
+	public int getColumns() {
+		// TODO 自動生成されたメソッド・スタブ
+		return 0;
+	}
+
+	@Override
+	public int getRows() {
+		// TODO 自動生成されたメソッド・スタブ
+		return 0;
+	}
+
+	@Override
+	public String getRowText(int row) {
+		// TODO 自動生成されたメソッド・スタブ
+		return null;
+	}
+
+}

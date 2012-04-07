@@ -1,0 +1,11 @@
+package observer;
+
+public class GraphObserver implements Observer {
+
+	@Override
+	public void update(NumberGenerator generator) {
+		// TODO 自動生成されたメソッド・スタブ
+
+	}
+
+}

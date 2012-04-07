@@ -2,4 +2,37 @@
 <typeInfoHistroy>
 <typeInfo handle="=designPattern/C:\/Program Files\/Java\/jre7\/lib\/rt.jar&lt;java.lang(Cloneable.class[Cloneable" modifiers="1537" timestamp="1330703524708"/>
 <typeInfo handle="=designPattern/Builder&lt;builder{Builder.java[Builder" modifiers="1025" timestamp="1333257710850"/>
+<typeInfo handle="=designPattern/AbstractFactory&lt;abstractFactoryFactory{Item.java[Item" modifiers="1025" timestamp="1333264900583"/>
+<typeInfo handle="=designPattern/AbstractFactory&lt;abstractFactoryFactory{Factory.java[Factory" modifiers="1025" timestamp="1333266820239"/>
+<typeInfo handle="=designPattern/AbstractFactory&lt;abstractFactoryFactory{Link.java[Link" modifiers="1025" timestamp="1333264904765"/>
+<typeInfo handle="=designPattern/AbstractFactory&lt;abstractFactoryFactory{Tray.java[Tray" modifiers="1025" timestamp="1333264996533"/>
+<typeInfo handle="=designPattern/AbstractFactory&lt;abstractFactoryFactory{Page.java[Page" modifiers="1025" timestamp="1333265208062"/>
+<typeInfo handle="=designPattern/Bridge&lt;bridgeImplementation{DisplayImpl.java[DisplayImpl" modifiers="1025" timestamp="1333271980590"/>
+<typeInfo handle="=designPattern/Composite&lt;composite{Entry.java[Entry" modifiers="1025" timestamp="1333277269292"/>
+<typeInfo handle="=designPattern/Bridge&lt;bridgeFunction{Display.java[Display" modifiers="1" timestamp="1333272492521"/>
+<typeInfo handle="=designPattern/Decorator&lt;decorator{Display.java[Display" modifiers="1025" timestamp="1333282416079"/>
+<typeInfo handle="=designPattern/Decorator&lt;decorator{Border.java[Border" modifiers="1025" timestamp="1333282624346"/>
+<typeInfo handle="=designPattern/Visitor&lt;visitor{Visitor.java[Visitor" modifiers="1025" timestamp="1333283460592"/>
+<typeInfo handle="=designPattern/C:\/Program Files\/Java\/jre7\/lib\/rt.jar&lt;java.lang(RuntimeException.class[RuntimeException" modifiers="33" timestamp="1330703524708"/>
+<typeInfo handle="=designPattern/ChainOfResponsibility&lt;chainOfResponsibility{Support.java[Support" modifiers="1025" timestamp="1333286181607"/>
+<typeInfo handle="=designPattern/C:\/Program Files\/Java\/jre7\/lib\/rt.jar&lt;java.awt(Button.class[Button" modifiers="33" timestamp="1330703524708"/>
+<typeInfo handle="=designPattern/C:\/Program Files\/Java\/jre7\/lib\/rt.jar&lt;java.awt(TextField.class[TextField" modifiers="33" timestamp="1330703524708"/>
+<typeInfo handle="=designPattern/C:\/Program Files\/Java\/jre7\/lib\/rt.jar&lt;java.awt.event(TextListener.class[TextListener" modifiers="1537" timestamp="1330703524708"/>
+<typeInfo handle="=designPattern/C:\/Program Files\/Java\/jre7\/lib\/rt.jar&lt;java.awt(Checkbox.class[Checkbox" modifiers="33" timestamp="1330703524708"/>
+<typeInfo handle="=designPattern/C:\/Program Files\/Java\/jre7\/lib\/rt.jar&lt;java.awt.event(ItemListener.class[ItemListener" modifiers="1537" timestamp="1330703524708"/>
+<typeInfo handle="=designPattern/Mediator&lt;mediator{Colleague.java[Colleague" modifiers="513" timestamp="1333444961226"/>
+<typeInfo handle="=designPattern/Mediator&lt;mediator{Mediator.java[Mediator" modifiers="513" timestamp="1333444900768"/>
+<typeInfo handle="=designPattern/Observer&lt;observer{NumberGenerator.java[NumberGenerator" modifiers="1025" timestamp="1333773139983"/>
+<typeInfo handle="=designPattern/Observer&lt;observer{Observer.java[Observer" modifiers="513" timestamp="1333454745968"/>
+<typeInfo handle="=designPattern/State&lt;state{State.java[State" modifiers="513" timestamp="1333776522099"/>
+<typeInfo handle="=designPattern/C:\/Program Files\/Java\/jre7\/lib\/rt.jar&lt;java.awt(Frame.class[Frame" modifiers="33" timestamp="1330703524708"/>
+<typeInfo handle="=designPattern/C:\/Program Files\/Java\/jre7\/lib\/rt.jar&lt;java.awt.event(ActionListener.class[ActionListener" modifiers="1537" timestamp="1330703524708"/>
+<typeInfo handle="=designPattern/State&lt;state{Context.java[Context" modifiers="513" timestamp="1333777851070"/>
+<typeInfo handle="=designPattern/C:\/Program Files\/Java\/jre7\/lib\/rt.jar&lt;com.sun.xml.internal.bind(CycleRecoverable$Context.class[Context" modifiers="1545" timestamp="1330703524708"/>
+<typeInfo handle="=designPattern/C:\/Program Files\/Java\/jre7\/lib\/rt.jar&lt;java.awt.print(Printable.class[Printable" modifiers="1537" timestamp="1330703524708"/>
+<typeInfo handle="=designPattern/Proxy&lt;proxy{Printable.java[Printable" modifiers="513" timestamp="1333792464950"/>
+<typeInfo handle="=designPattern/Command&lt;commandCommand{Command.java[Command" modifiers="513" timestamp="1333793184937"/>
+<typeInfo handle="=designPattern/C:\/Program Files\/Java\/jre7\/lib\/rt.jar&lt;java.awt(Canvas.class[Canvas" modifiers="33" timestamp="1330703524708"/>
+<typeInfo handle="=designPattern/Command&lt;commandDrawer{Drawable.java[Drawable" modifiers="513" timestamp="1333793537677"/>
+<typeInfo handle="=designPattern/C:\/Program Files\/Java\/jre7\/lib\/rt.jar&lt;java.lang(Exception.class[Exception" modifiers="33" timestamp="1330703524708"/>
 </typeInfoHistroy>

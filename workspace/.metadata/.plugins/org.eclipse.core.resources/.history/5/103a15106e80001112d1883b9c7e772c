@@ -1,0 +1,10 @@
+package mementoGame;
+
+public class Gamer {
+	
+	// Š‹à
+	private int money;
+	
+	// ƒtƒ‹[ƒc
+	private List fruits = new ArrayList<String>();
+}

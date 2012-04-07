@@ -1,0 +1,11 @@
+package commandCommand;
+
+public class MacroCommand implements Command {
+
+	@Override
+	public void execute() {
+		// TODO 自動生成されたメソッド・スタブ
+
+	}
+
+}

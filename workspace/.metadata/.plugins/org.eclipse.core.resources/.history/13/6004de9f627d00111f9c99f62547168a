@@ -1,0 +1,11 @@
+package chainOfResponsibility;
+
+public class SpecialSupport extends Support {
+
+	@Override
+	protected boolean resolve(Trouble trouble) {
+		// TODO 自動生成されたメソッド・スタブ
+		return false;
+	}
+
+}

@@ -1,0 +1,28 @@
+package mediator;
+
+import java.awt.TextField;
+import java.awt.event.TextEvent;
+import java.awt.event.TextListener;
+
+public class ColleagueTextField extends TextField implements TextListener,
+		Colleague {
+
+	@Override
+	public void setMediator(Mediator mediator) {
+		// TODO 自動生成されたメソッド・スタブ
+
+	}
+
+	@Override
+	public void setColleagueEnabled(boolean enabled) {
+		// TODO 自動生成されたメソッド・スタブ
+
+	}
+
+	@Override
+	public void textValueChanged(TextEvent arg0) {
+		// TODO 自動生成されたメソッド・スタブ
+
+	}
+
+}

@@ -11,6 +11,19 @@
 	<classpathentry kind="src" path="AbstractFactory"/>
 	<classpathentry kind="src" path="Bridge"/>
 	<classpathentry kind="src" path="Strategy"/>
+	<classpathentry kind="src" path="Composite"/>
+	<classpathentry kind="src" path="Decorator"/>
+	<classpathentry kind="src" path="Visitor"/>
+	<classpathentry kind="src" path="ChainOfResponsibility"/>
+	<classpathentry kind="src" path="Facade"/>
+	<classpathentry kind="src" path="Mediator"/>
+	<classpathentry kind="src" path="Observer"/>
+	<classpathentry kind="src" path="Memento"/>
+	<classpathentry kind="src" path="State"/>
+	<classpathentry kind="src" path="Flyweight"/>
+	<classpathentry kind="src" path="Proxy"/>
+	<classpathentry kind="src" path="Command"/>
+	<classpathentry kind="src" path="Interpreter"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

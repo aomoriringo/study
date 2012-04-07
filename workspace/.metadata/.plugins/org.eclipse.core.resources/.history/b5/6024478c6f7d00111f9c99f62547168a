@@ -1,0 +1,28 @@
+package mediator;
+
+import java.awt.Checkbox;
+import java.awt.event.ItemEvent;
+import java.awt.event.ItemListener;
+
+public class ColleagueCheckBox extends Checkbox implements ItemListener,
+		Colleague {
+
+	@Override
+	public void setMediator(Mediator mediator) {
+		// TODO 自動生成されたメソッド・スタブ
+
+	}
+
+	@Override
+	public void setColleagueEnabled(boolean enabled) {
+		// TODO 自動生成されたメソッド・スタブ
+
+	}
+
+	@Override
+	public void itemStateChanged(ItemEvent arg0) {
+		// TODO 自動生成されたメソッド・スタブ
+
+	}
+
+}

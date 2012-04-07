@@ -1,0 +1,5 @@
+package commandDrawer;
+
+public interface Drawable {
+
+}

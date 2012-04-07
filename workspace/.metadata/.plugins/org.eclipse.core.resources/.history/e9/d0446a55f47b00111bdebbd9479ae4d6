@@ -1,0 +1,7 @@
+package decorator;
+
+import bridgeFunction.Display;
+
+public class StringDisplay extends Display {
+
+}

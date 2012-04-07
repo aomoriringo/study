@@ -1,0 +1,15 @@
+package interpreter;
+
+import java.text.ParseException;
+
+
+// <program> ::=program <command list>
+public class ProgramNode extends Node{
+
+	private Node commandListNode;
+	
+	public void parse(Context context) throws ParseException{
+		context.skipToken("program");
+		
+	}
+}

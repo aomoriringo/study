@@ -1,0 +1,30 @@
+package observer;
+
+import iterator.Iterator;
+
+import java.util.ArrayList;
+
+public abstract class NumberGenerator {
+	
+	// Observer‚½‚¿‚ğ•Û
+	private ArrayList<Observer> observers = new ArrayList();
+	
+	// Observer‚ğ’Ç‰Á
+	public void addObserver(Observer observer){
+		observers.add(observer);
+	}
+	
+	// Observer‚ğíœ
+	public void deleteObserver(Observer observer){
+		observers.remove(observer;)
+	}
+	
+	// Observer‚Ö’Ê’m
+	public void notifyObservers(){
+		Iterator it = observers.iterator();
+		while(it.hasNext()){
+			Observer o = (Observer)it.next();
+			o.update(this);
+		}
+	}
+}

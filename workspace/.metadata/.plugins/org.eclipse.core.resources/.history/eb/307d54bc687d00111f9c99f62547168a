@@ -1,0 +1,12 @@
+package facadePagemaker;
+
+public class HtmlWriter {
+	
+	private Writer writer;
+	
+	public HtmlWriter(Writer writer){
+		this.writer = writer;
+	}
+	
+	
+}

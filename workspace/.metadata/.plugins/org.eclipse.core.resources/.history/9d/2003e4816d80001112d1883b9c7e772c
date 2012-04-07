@@ -1,0 +1,32 @@
+package mementoGame;
+
+import java.util.ArrayList;
+
+public class Memento {
+	// 所持金
+	int money;
+	
+	// フルーツ
+	ArrayList<String> fruits;
+	
+	
+	// 所持金を得る
+	public int getMoney(){
+		return money;
+	}
+	
+	Memento(int money){
+		this.money = money;
+		this.fruits = new ArrayList<String>();
+	}
+	
+	// フルーツを追加する
+	void addfruit(String fruit){
+		fruits.add(fruit);
+	}
+	
+	// フルーツを得る
+	List getFruits(){
+		return (List)fruits.clone();
+	}
+}
