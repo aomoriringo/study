@@ -7,7 +7,7 @@
  * when we return, so they had better handle that.
  */
 
-#include "systype.h"
+#include "../lib/systype.h"
 #include <sys/wait.h>
 #include <signal.h>
 

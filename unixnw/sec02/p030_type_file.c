@@ -4,12 +4,8 @@
 
 #include <sys/types.h>
 #include <sys/stat.h>
-
-void err_sys(const char* x)
-{
-  perror(x);
-  exit(1);
-}
+// #include "../lib/utils.c"
+#include "../lib/error.c"
 
 main(argc, argv)
 int  argc;

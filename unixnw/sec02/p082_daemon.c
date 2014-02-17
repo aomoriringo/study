@@ -3,21 +3,18 @@
  */
 
 #include       <stdio.h>
+#include       <stdlib.h>
 #include       <signal.h>
 #include       <sys/param.h>
 #include       <errno.h>
-extern int     errno;
+#include       "../lib/error.c"
+//extern int     errno;
 
 #ifdef SIGTSTP
 #include       <sys/file.h>
 #include       <sys/ioctl.h>
 #endif
 
-void err_sys(const char* x)
-{
-  perror(x);
-  exit(1);
-}
 sig_child()
 {
 #ifdef BSD
@@ -88,7 +85,7 @@ int ignsigcld;          /* nonzero -> handle SIGCLDs so zombies don't clog */
 #ifdef SIGTSTP     /* BSD */
   if (setpgrp(0, getpid()) == -1)
     err_sys("can't change process group");
-  
+
   if ( (fd = open("/dev/tty", O_RDWR)) >= 0) {
     ioctl(fd, TIOCNOTTY, (char *)NULL);   /* lose controlling tty */
     close(fd);
@@ -99,7 +96,7 @@ int ignsigcld;          /* nonzero -> handle SIGCLDs so zombies don't clog */
     err_sys("can't change process group");
 
   signal(SIGHUP, SIG_IGN);       /* immune from pgrp leader death */
-  
+
   if ( (childpid = fork()) < 0)
     err_sys("can't fork second child");
   else if (childpid > 0)
@@ -124,13 +121,13 @@ int ignsigcld;          /* nonzero -> handle SIGCLDs so zombies don't clog */
    */
 
   chdir("/");
-  
+
   /*
    * Clear any inferited file mode creation mask.
    */
 
   umask(0);
-  
+
   /*
    * See if the caller isn't interested in the exit status of its
    * children, and doesn't want to have them become zombies and

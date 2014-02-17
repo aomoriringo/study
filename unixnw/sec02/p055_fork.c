@@ -1,3 +1,6 @@
+#include <stdio.h>
+#include <stdlib.h>
+
 /*
  * The value returned by getppid() is the process ID of the parent process for the calling process. A process ID value of 1 indicates that there is no parent process associated with the calling process.
  */

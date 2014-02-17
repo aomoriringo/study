@@ -1,3 +1,6 @@
+#include <malloc.h>
+#include <string.h>
+
 int debug = 1;
 char *progname;
 
@@ -6,7 +9,8 @@ int argc;
 char *argv[];
 {
   int i;
-  char *ptr, *malloc();
+  // char *ptr, *malloc();
+  char *ptr;
 
   progname = argv[0];
   printf("argc = %d\n", argc);
